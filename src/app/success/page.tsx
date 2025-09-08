@@ -1,4 +1,5 @@
 import { requireUpTo } from "@/lib/progress";
+import Image from "next/image";
 import { redirect } from "next/navigation";
 
 export const metadata = { title: "Success — All Stages Cleared" };
@@ -14,8 +15,9 @@ export default async function Page() {
 
   return (
     <div className="bg-zinc-700">
-      <img
+      <Image
         src="success.gif"
+        alt="brilliant!"
         className="shadow-[inset_4px_4px_0px_#000] border border-zinc-900"
       />
       <p className="font-mono text-emerald-400 mt-3">

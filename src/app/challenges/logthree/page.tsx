@@ -17,7 +17,7 @@ export default async function Page() {
     <>
       <div className="isItHidden?">
         <div className="secret" style={{ display: "none" }}>
-          username === "div" && password === "ifoundyou"
+          {`username === "div" && password === "ifoundyou"`}
         </div>
       </div>
       <LoginForm
