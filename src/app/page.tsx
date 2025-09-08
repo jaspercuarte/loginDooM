@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="space-y-3 bg-zinc-700">
@@ -12,9 +14,9 @@ export default function Home() {
       </details>
       <p className="font-mono text-emerald-400">
         Start at{" "}
-        <a className="font-semibold" href="/challenges/logone">
+        <Link className="font-semibold" href="/challenges/logone">
           /logone
-        </a>
+        </Link>
       </p>
     </main>
   );
